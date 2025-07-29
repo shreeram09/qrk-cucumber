@@ -46,6 +46,7 @@ log.info("Received a request to /hello endpoint");
     }
 
     private void simulateLatency() {
+        log.info("Simulating latency for 5 seconds");
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
